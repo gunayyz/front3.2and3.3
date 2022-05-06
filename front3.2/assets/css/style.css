@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+  }
+  html {
+    height: 100%;  
+  }
+  body {
+    min-height: 100%;  
+    background: #eee;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    padding-bottom: 50px;
+  }
+  .header {
+    margin-bottom: 30px;
+  }
+  .full-name {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.strong {
+    font-weight: 700;
+  }
+.normal {
+    font-weight: 300;
+}
+.left , .right {
+    vertical-align: top;
+    display: inline-block;
+  }
+  .left {
+    display: inline-block;
+    width: 60%;    
+  }
+  .right {
+    text-align: left;
+    width: 39%;   
+    margin-left: 250px; 
+    margin-top: -130px;
+  }
+  .experience, .about, .info, .highlights{
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .dates{
+    display:inline;
+    text-decoration: none;
+    
+  }
+  .date_index{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style-type: none;
+    
+  }
+  .lighter{
+    font-weight: lighter;
+    list-style-type:disc ;
+  }
